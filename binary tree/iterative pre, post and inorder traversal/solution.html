@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<head>
+    <title>
+        Construct Binary tree
+    </title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body onload="getsolution()">
+    <div class="headbar">
+        <h1>Construct Binary Tree</h1>
+    </div>
+    <div class="sidebar">
+        <a href="problem.html">Problem</a>
+        <a class="active" href="solution.html">Solution</a>
+        <footer>
+            <a href="../../index.html">Home</a>
+            <a href="../index.html">Binary Tree Problems</a>
+        </footer>
+    </div>
+    <div class="content">
+        <div class="solution_output">
+            <label for="solution">Solution:</label>
+            <select id="languages" onchange="getsolution()">
+                <option value="java">Java</option>
+                <option value="javascript">JavaScript</option>
+                <option value="c++">C++</option>
+                <option value="python">Python</option>
+                <option value="ruby">Ruby</option>
+                <option value="go">Go</option>
+            </select>
+            <br>
+            <textarea id="solution" rows="15" cols="60"></textarea>
+            <br>
+            <label for="input">Input:</label>
+            <br>
+            <textarea id="input" rows="10" cols="60"></textarea>
+            <br>
+            <label for="output">Output:</label>
+            <br>
+            <textarea id="output" rows="10" cols="60"></textarea>
+            <br>
+            <button id="run" onclick="maketree()">Run</button>
+        </div>
+        <div class="tree">
+        </div>
+        <div class="tree_button">
+            <button id="normal_tree">Tree</button>
+            <button id="pre_tree">Preorder</button>
+            <button id="post_tree">Postorder</button>
+            <button id="in_tree">Inorder</button>
+        </div>
+    </div>
+</body>
+
+</html>

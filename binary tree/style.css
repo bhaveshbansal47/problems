@@ -1,0 +1,42 @@
+/*Now the CSS*/
+
+body {
+    margin: 0;
+    font-family: "Lato", sans-serif;
+  }
+  
+  .headbar {
+      height: 10vh;
+      width: 100%;
+      text-align: center;
+      color: #4CAF50;
+  }
+  
+  div.content {
+    width: 100%;
+    height: auto;
+  }
+
+  .problem_name {
+      margin-left: 0.9%;
+      margin-right: 0.9%;
+      margin-bottom: 0.9%;
+      margin-top: 0.9%;
+      text-align: center;
+      width: 23%;
+      border: 1px solid black;
+      height: 100px;
+      padding-top: 2%;
+      float: left;
+      background-color: #4CAF50;
+      color: white;
+  }
+
+  .problem_name:hover {
+      background-color: white;
+      color: #4CAF50;
+  }
+  
+
+  
+  

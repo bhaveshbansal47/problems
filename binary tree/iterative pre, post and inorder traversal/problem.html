@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<head>
+    <title>
+        Construct Binary tree
+    </title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="headbar">
+        <h1>Construct Binary Tree</h1>
+    </div>
+    <div class="sidebar">
+        <a class="active" href="problem.html">Problem</a>
+        <a href="solution.html">Solution</a>
+        <footer>
+            <a href="../../index.html">Home</a>
+            <a href="../index.html">Binary Tree Problems</a>
+        </footer>
+    </div>
+    <div class="content">
+        <div class="problem">
+            <h3>Question</h3>
+            <br>
+            <p>
+                Write a progam to Construct binary tree using the given Array. Array represents tree traversed in dsf
+                with null nodes as well represented as n.<br><br>
+                Eg. Array: ["50", "25", "12", "n", "n", "37", "n", "n", "75", "62", "n", "n", "87", "n", "n"]<br><br>
+                Tree will look like:
+            </p>
+            <img src="tree.png">
+            <br>
+            <h3>Input</h3>
+            <br>
+            <p>
+                First line contain integer n that is size of array.<br>
+                Next line contain n numbers of the array, null is represented with n.
+            </p>
+            <p>
+                15<br>
+                50 25 12 n n 37 n n 75 62 n n 87 n n
+            </p>
+            <br>
+            <h3>Output</h3>
+            <br>
+            <p>
+                25 &lt- 50 -&gt 75<br>
+                12 &lt- 25 -&gt 37<br>
+                . &lt- 12 -&gt .<br>
+                . &lt- 37 -&gt .<br>
+                62 &lt- 75 -&gt 87<br>
+                . &lt- 62 -&gt .<br>
+                . &lt- 87 -&gt .
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
